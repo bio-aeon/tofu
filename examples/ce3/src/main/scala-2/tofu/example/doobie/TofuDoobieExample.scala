@@ -6,9 +6,9 @@ import cats.effect.{Async, IO, IOApp}
 import cats.tagless.syntax.functorK._
 import cats.{Apply, Monad}
 import derevo.derive
-import doobie._
-import doobie.implicits._
-import doobie.util.log.LogHandler
+import org.typelevel.doobie._
+import org.typelevel.doobie.implicits._
+import org.typelevel.doobie.util.log.LogHandler
 import tofu.doobie.LiftConnectionIO
 import tofu.doobie.transactor.Txr
 import tofu.higherKind.RepresentableK

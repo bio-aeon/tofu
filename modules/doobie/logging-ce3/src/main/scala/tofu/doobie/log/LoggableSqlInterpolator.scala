@@ -1,11 +1,11 @@
 package tofu.doobie.log
-import doobie.syntax.SqlInterpolator
+import org.typelevel.doobie.syntax.SqlInterpolator
 
 import scala.{specialized => sp}
-import doobie.syntax.SqlInterpolator.SingleFragment
-import doobie.util.Put
-import doobie.util.fragment.Fragment
-import doobie.util.pos.Pos
+import org.typelevel.doobie.syntax.SqlInterpolator.SingleFragment
+import org.typelevel.doobie.util.Put
+import org.typelevel.doobie.util.fragment.Fragment
+import org.typelevel.doobie.util.pos.Pos
 import tofu.doobie.log.LoggableSqlInterpolator.LoggableSingleFragment
 import tofu.logging.{LogRenderer, Loggable, LoggedValue}
 

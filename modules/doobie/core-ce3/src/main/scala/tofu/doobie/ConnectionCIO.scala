@@ -2,7 +2,7 @@ package tofu.doobie
 
 import cats.data.Kleisli
 import cats.~>
-import doobie.ConnectionIO
+import org.typelevel.doobie.ConnectionIO
 import tofu.kernel.types.AnyK
 
 object ConnectionCIO extends ConnectionCIOCrossVersion {

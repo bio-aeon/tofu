@@ -1,6 +1,6 @@
 package tofu.syntax.doobie.log
 
-import doobie.util.log._
+import org.typelevel.doobie.util.log._
 import tofu.doobie.log.instances._
 import tofu.kernel.types.AnyK
 import tofu.logging.Logging
