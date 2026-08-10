@@ -1,6 +1,6 @@
 package tofu
 
-import _root_.doobie.ConnectionIO
+import _root_.org.typelevel.doobie.ConnectionIO
 import cats.data.Kleisli
 import tofu.lift.Lift
 

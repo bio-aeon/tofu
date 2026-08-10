@@ -1,6 +1,6 @@
 package tofu.doobie
 
-import doobie.ConnectionIO
+import org.typelevel.doobie.ConnectionIO
 import tofu.lift.Lift
 
 object DoobieInstancesSuite {

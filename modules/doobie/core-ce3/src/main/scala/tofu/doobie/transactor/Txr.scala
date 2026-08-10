@@ -4,13 +4,13 @@ package transactor
 import cats.data.Kleisli
 import cats.effect.{MonadCancelThrow, Resource}
 import cats.~>
-import doobie.{ConnectionIO, Transactor}
 import fs2.Stream
+import org.typelevel.doobie.{ConnectionIO, Transactor}
 import tofu.syntax.funk._
 import tofu.syntax.monadic._
 
-/** A simple facade for [[doobie.Transactor]] that holds an inner database effect type `DB[_]` and provides natural
-  * transformations from this effect to the target effect `F[_]`.
+/** A simple facade for [[org.typelevel.doobie.Transactor]] that holds an inner database effect type `DB[_]` and
+  * provides natural transformations from this effect to the target effect `F[_]`.
   *
   * The motivation for using this facade instead of `Transactor` is to:
   *

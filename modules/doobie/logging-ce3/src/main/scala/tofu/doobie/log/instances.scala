@@ -1,7 +1,7 @@
 package tofu.doobie.log
 
 import cats.syntax.monoid._
-import doobie.util.log._
+import org.typelevel.doobie.util.log._
 import tofu.logging.{DictLoggable, LogRenderer, Loggable, LoggedValue}
 import tofu.syntax.logRenderer._
 
